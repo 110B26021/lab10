@@ -1,2 +1,6 @@
-INSERT INTO [dbo].[Em_view]
-VALUES('S0006', '六合','D001')
+use [MyDB]
+go
+CREATE VIEW Employee
+AS 
+	SELECT*
+	FROM [dbo].[Employee]
